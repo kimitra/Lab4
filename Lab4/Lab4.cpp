@@ -18,7 +18,6 @@ void factorial(int A) {
 	cout << "Enter a number: ";
 	cin >> A;
 	int fact = 1;
-	int mult = 0;
 	while (A < 0) {
 		cout << "Nice try, please enter a POSITIVE number...: ";
 		cin >> A;
@@ -29,9 +28,7 @@ void factorial(int A) {
 		fact = fact * i;
 		if (i < A)
 			cout << " * ";
-		
 	}
-
 	cout << " = " << fact << endl;
 }
 void arithmetic(int A, int B, int C) {
